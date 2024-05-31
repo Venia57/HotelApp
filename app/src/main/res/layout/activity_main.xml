@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|start"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$74"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13dp"
+                android:textColor="#fff">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Beach is but a short walk away"
+                android:textSize="24sp"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text=" Selamat datang Di Harris Hotel Batam Center, destinasi liburan yang sempurna untuk melarikan diri dari kesibukan sehari-hari dan menikmati kemewahan tepi pantai. Terletak di tepi pantai yang memukau dengan pasir putih yang halus dan air laut yang jernih, hotel kami menawarkan pengalaman menginap yang tak terlupakan.
+                            Nikmati kenyamanan kamar-kamar kami yang luas dan elegan, dilengkapi dengan fasilitas modern dan balkon pribadi yang menghadap langsung ke pemandangan laut yang memukau. Bangun dengan suara gemericik ombak dan panorama matahari terbit yang menakjubkan.
+                            Selain akomodasi yang nyaman,Hotel Sejahtera menawarkan beragam fasilitas dan layanan yang akan membuat liburan Anda menjadi lebih istimewa. Santaplah di restoran kami yang menghadap ke laut dan nikmati hidangan lezat yang disajikan dengan pemandangan yang memukau. Selain itu, Anda dapat bersantai di kolam renang infinity kami sambil menikmati minuman segar dari bar tepi kolam.
+                            Untuk para tamu yang ingin menjelajahi keindahan alam sekitar, kami menawarkan berbagai kegiatan seperti snorkeling, menyelam, atau sekadar berjalan-jalan di sepanjang pantai yang indah. Tim kami yang ramah dan profesional akan siap membantu Anda mengatur segala kebutuhan liburan Anda dengan penuh perhatian.
+                            Tidak hanya sebagai tempat menginap, Sejahtera juga merupakan tempat yang sempurna untuk acara khusus seperti pernikahan, perayaan, atau pertemuan bisnis. Dengan layanan dan fasilitas kami yang lengkap, kami akan memastikan setiap acara berjalan lancar dan tak terlupakan.
+                            Jangan lewatkan kesempatan untuk menikmati liburan yang santai dan berkesan di Harris Hotel Batam Center Hubungi kami sekarang untuk informasi lebih lanjut dan booking terbaik Anda. ">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_secondary"
+        android:textColor="#ffffff"
+        android:text="Book Now!!!">
+    </Button>
+</LinearLayout>
+
+
